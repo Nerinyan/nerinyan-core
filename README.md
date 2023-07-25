@@ -11,7 +11,8 @@ err = a.Refresh()
 
 exp := a.ExpiredAt()
 
-fmt.Println(a.Token.AccessToken) // Print Access Token
+fmt.Println(exp)                 // Print seconds remaining until expiration
+fmt.Println(a.Token.AccessToken) // Print access token
 ```
 
 ## License
